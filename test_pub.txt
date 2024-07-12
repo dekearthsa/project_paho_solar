@@ -1,0 +1,2 @@
+mosquitto_pub  -h localhost -p 1883 -t test/topic -m '{"deviceID":"eee"}'
+mosquitto_sub  -h localhost -p 1883 -t test/pub/topic
